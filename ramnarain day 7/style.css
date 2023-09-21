@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+.title{
+    text-align: center;
+    color: magenta;
+}
+.subtitle{
+    background-color: aqua;
+    padding: 3em;
+    margin: 2em auto;
+    position: relative;
+}
+.img_container{
+    width: 60%;
+    padding: 3em;
+    margin: 2em auto;
+    position: relative;
+}
+.image1{
+    width: 100%;
+    display: block;
+}
+.image2{
+    width: 100%;
+    display: block;
+}
+.image3{
+    width: 100%;
+    display: block;
+}
