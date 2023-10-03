@@ -1,0 +1,78 @@
+*{box-sizing: border-box};
+html{scroll-behavior: smooth;}
+.title{
+    text-align: center;
+    color: crimson;
+    font-family: Georgia;
+    transition: ease-in-out 2s;
+}
+.title:hover{
+    font-family: algerian;
+    color: greenyellow;
+    text-shadow: 1px 1px 5px black;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.imgContainer1, .imgContainer2{
+    width: 200px;
+    height: 100px;
+    border: ridge 12px orangered;
+    transition: ease 2s;
+    overflow: hidden;
+    margin: 5em;
+}
+.imgContainer1:hover{
+    border-radius: 50%;
+    border: dotted10px green;
+    transform: translateX(500px);
+}
+.imgContainer2:hover{
+    border-radius: 50%;
+    border: dashed 10px gray;
+    transform: scale(1.3);
+}
+.card{
+    width: 30%;
+    box-shadow: 2px 2px 5px black;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 5em;
+    transition: ease 3s;
+}
+.cardMsg{
+    position: absolute;
+    top: 5%;
+    bottom: 10%;
+    left: 2%;
+    right: 2%;
+    text-align: center;
+    color: rgb(229, 234, 235);
+}
+.card:hover{
+    box-shadow: 0px 0px 5px 3px crimson;
+    width: 30.5%;
+}
+.card:hover .cardMsg{
+    color: orangered;
+    text-shadow: 1px 1px 3px whitesmoke;
+}
+/*----------CLASS ACTIVITY-------*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 33.33;
+    clear: both;
+    display: table;
+}
+.classActivityCard:hover{
+    box-shadow: none;
+    width: 365px;
+    height: 365px;
+}
+.classActivityCard1 .classActivityCard2{
+    position: absolute;
+}
