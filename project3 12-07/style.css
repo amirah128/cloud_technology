@@ -1,0 +1,14 @@
+.title{ 
+    text-align: none;
+    color: rgb(134, 47, 134);
+    transition: ease-in-out 0.3s;
+    text-decoration: underline;
+}
+.title:hover{
+    color:indigo;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.card-body{
+    border:  1em ridge black;
+}
